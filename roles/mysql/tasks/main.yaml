@@ -10,7 +10,7 @@
       enabled: yes
       state: restarted
 
-  - name: Install dependencies for mysql
+  - name: Install dependencies for mysql boto3 and botocore
     ansible.builtin.pip:
       name: "{{ item }}"
       executable: pip3
