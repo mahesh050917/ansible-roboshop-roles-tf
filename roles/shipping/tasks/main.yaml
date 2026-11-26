@@ -37,9 +37,10 @@
       ansible.builtin.pip3:
         name: "{{ item }}"
       loop: 
-      - PyMySQL
-      - boto3
-      - botocore
+       - PyMySQL
+       - boto3
+       - botocore
+       
     - name: Create target database if it does not exist
       community.mysql.mysql_db:
          name: all
