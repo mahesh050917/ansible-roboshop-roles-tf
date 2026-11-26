@@ -8,7 +8,7 @@ MYSQL_HOST: mysql-{{ env }}.daws88s.shop
 PAYMENT_HOST: payment.backend-alb-{{ env }}.daws88s.shop 
 CATALOGUE_HOST: catalogue.backend-alb-{{ env }}.daws88s.shop
 FRONTEND_HOST: frontend-{{ env }}.daws88s.shop
-SHIPPING_HOST: shipping.backend-alb-.daws88s.shop
+SHIPPING_HOST: shipping.backend-alb-{{ env }}.daws88s.shop
 USER_HOST: user.backend-alb-{{ env }}.daws88s.shop
 CART_HOST: cart.backend-alb-{{ env }}.daws88s.shop
 mysql_user: root
