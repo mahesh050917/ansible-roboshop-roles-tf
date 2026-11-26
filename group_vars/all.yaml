@@ -12,7 +12,7 @@ SHIPPING_HOST: shipping-{{ env }}.daws88s.shop
 USER_HOST: user-{{ env }}.daws88s.shop
 CART_HOST: cart-{{ env }}.daws88s.shop
 mysql_user: root
-# mysql_password: RoboShop@1
+mysql_password: RoboShop@1
 # mysql_password: "{{ (lookup('amazon.aws.aws_secret','/roboshop/dev/mysql_password',region='us-east-1') | from_json).mysql_password }}"
 sql_hostname: mysql{{ env }}.daws88s.shop
 app_version: v3
